@@ -9,6 +9,22 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
+/* 
+adding whatsapp fearture here */
+
+.whatsapp {
+  position: fixed;
+  height: 20px;
+  width: 20px;
+  /* top: 570px; */
+  right: 60px;
+  bottom: 120px;
+}
+
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
