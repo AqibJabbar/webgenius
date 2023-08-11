@@ -21,6 +21,7 @@ adding whatsapp fearture here */
   /* top: 570px; */
   right: 60px;
   bottom: 120px;
+  z-index: 999;
 }
 
 
