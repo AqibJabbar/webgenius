@@ -17,7 +17,7 @@ adding whatsapp fearture here */
   z-index: 999;
 }
 
-@keyframes shake {
+/* @keyframes shake {
   0%, 100% {
     transform: translateY(-50%);
   }
@@ -27,12 +27,27 @@ adding whatsapp fearture here */
   20%, 40%, 60%, 80% {
     transform: translateX(5px);
   }
+} */
+@keyframes shake-rotate {
+  0%, 100% {
+    transform: rotate(0deg) translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: rotate(-8deg) translateX(-5px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: rotate(8deg) translateX(5px);
+  }
 }
-
 .shake-image {
   display: inline-block;
-  animation: shake 8s infinite;
+  animation: shake-rotate 8s infinite;
 }
+
+/* .shake-image {
+  display: inline-block;
+  animation: shake 8s infinite;
+} */
 
 /* end whatsapp */
 
