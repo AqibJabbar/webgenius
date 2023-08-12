@@ -17,6 +17,25 @@ adding whatsapp fearture here */
   z-index: 999;
 }
 
+@keyframes shake {
+  0%, 100% {
+    transform: translateY(-50%);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-5px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(5px);
+  }
+}
+
+.shake-image {
+  display: inline-block;
+  animation: shake 8s infinite;
+}
+
+/* end whatsapp */
+
 
 
 body {
